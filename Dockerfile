@@ -11,3 +11,4 @@ RUN cd /opt/guile && git checkout f9620e01c3d01abc2fd306ba5dc062a2f252eb97
 
 RUN cd /opt/guile && ./autogen.sh
 RUN cd /opt/guile && ./configure
+RUN cd /opt/guile && make -j 2
